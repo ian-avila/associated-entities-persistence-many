@@ -1,4 +1,6 @@
 package com.ian_avila.associated_entities_persistence_many.dto;
 
-public class CategoryResponse {
+import java.util.List;
+
+public record CategoryResponse(Long id, String name) {
 }
